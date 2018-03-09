@@ -1,17 +1,32 @@
 # Prettify JSON
 
-[TODO. There will be project description]
+Cкрипт, который на вход принимает путь до файла с произвольными данными в формате JSON 
+и выводит его содержимое в консоль в удобном для чтения виде: добавляет переносы строк, отступы слева и пробелы.
 
 # Quickstart
-
-[TODO]
 
 Example of script launch on Linux, Python 3.5:
 
 ```bash
 
 $ python pprint_json.py <path to file>
-# TODO add output example
+
+[
+    {
+        "Cells": {
+            "Address": "улица Академика Павлова, дом 10",
+            "AdmArea": "Западный административный округ",
+            "ClarificationOfWorkingHours": null,
+            "District": "район Кунцево",
+            "IsNetObject": "да",
+            "Name": "Ароматный Мир",
+            "OperatingCompany": "Ароматный Мир",
+            "PublicPhone": [
+                {
+                    "PublicPhone": "(495) 777-51-95"
+                }
+            ],
+...
 
 ```
 
