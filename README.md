@@ -1,7 +1,7 @@
 # Prettify JSON
 
-Cкрипт, который на вход принимает путь до файла с произвольными данными в формате JSON 
-и выводит его содержимое в консоль в удобном для чтения виде: добавляет переносы строк, отступы слева и пробелы.
+The script that accepts the path to the input file with arbitrary data in JSON format 
+and displays its contents to the console in a readable form: adds line breaks, indents to the left, and spaces.
 
 # Quickstart
 
