@@ -2,13 +2,11 @@ import json, sys, os
 
 
 def load_data(filepath):
-    if not os.path.isfile(filepath):            # Проверка существования файлa
-        return None
-    with open(filepath, 'r', encoding="utf-8") as f:
+    with open(filepath, 'r', encoding='utf-8') as file_handler:
         try:
-            json_content = json.load(f)
+            json_content = json.load(file_handler)
             pretty_print_json(json_content)
-        except json.decoder.JSONDecodeError:    # Не верный формат файла
+        except json.decoder.JSONDecodeError:
             return None
 
 
