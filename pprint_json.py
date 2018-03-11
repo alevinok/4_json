@@ -1,14 +1,14 @@
 import json, sys
 
 
-def load_data(filepath):
-    with open(filepath, 'r', encoding='utf-8') as file_handler:
+def load_data(file_path):
+    with open(file_path, 'r', encoding='utf-8') as file_handler:
         json_content = json.load(file_handler)
     return json_content
 
 
-def pretty_print_json(data):
-    print(json.dumps(data, sort_keys=True, indent=2, ensure_ascii=False))
+def pretty_print_json(file_data):
+    print(json.dumps(file_data, sort_keys=True, indent=2, ensure_ascii=False))
 
 
 if __name__ == '__main__':
